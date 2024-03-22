@@ -1,0 +1,34 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 20px; 
+    background-color: gold; 
+}
+
+.slider::-webkit-slider-thumb {
+    background-color: gold; 
+}
